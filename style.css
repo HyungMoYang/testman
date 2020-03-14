@@ -1,0 +1,27 @@
+
+  /* CSS revolution - selector, declaration, property, value */
+  a {
+    color: black;
+    text-decoration: none; /* a(anchor) tag를 사용하면 링크 밑에 underline이 생기는데 이걸 제거해줌 */
+  }
+  h1 {
+    text-align: center; /* align: ~을 조정하다. 즉, text를 조정함 center로 */
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 0;
+    font-size: 45px;
+  }
+  ol {
+    border-right: 1px solid black;
+    width: 100px;
+    margin: 0;
+    padding: 20px;
+    padding-top: 31px;
+  }
+  #grid_test {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #article {
+    padding: 10px;
+  }
